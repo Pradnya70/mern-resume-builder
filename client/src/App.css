@@ -1,0 +1,125 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  margin: 50px auto;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: aquamarine;
+  border: 1px solid black;
+  border-radius: 3px;
+  transition: background-color 0.3s;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: #78e5d5;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  width: 100%;
+  align-self: center;
+  align-items: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+  text-align: left;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+span.error,
+div.error {
+  color: red;
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  align-self: center;
+}
+.preview-container {
+  font-family: Arial, sans-serif;
+  color: #000000;
+}
+.preview-container {
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.resume-section {
+  margin-bottom: 20px;
+}
+
+.resume-section h3 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+.resume-section p {
+  margin: 5px 0;
+}
+
+.profile-photo img {
+  max-width: 150px;
+  border-radius: 50%;
+  margin: 10px 0;
+}
