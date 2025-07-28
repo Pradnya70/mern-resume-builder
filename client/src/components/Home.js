@@ -24,12 +24,7 @@ const Home = () => {
   const [template, setTemplate] = useState({ font: 'Arial', color: '#000000' });
 
   const handlePersonalInfoChange = (info) => setPersonalInfo(info);
-  const handleExperienceChange = (exp) => setExperience(exp);
-  const handleProjectsChange = (proj) => setProjects(proj);
-  const handleCertificationsChange = (cert) => setCertifications(cert);
-  const handleEducationChange = (edu) => setEducation(edu);
-  const handleSkillsChange = (skill) => setSkills(skill);
-  const handleLanguagesChange = (lang) => setLanguages(lang);
+  
   const handleProfilePhotoChange = (photo) => setProfilePhoto(photo);
   const handleTemplateChange = (temp) => setTemplate(temp);
 

@@ -1,15 +1,14 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
+  background-color: #f0f2f5;
   margin: 0;
   padding: 0;
 }
 
-
 .App {
   font-family: Arial, sans-serif;
   text-align: center;
-  background-color: #f9f9f9;
+  background-color: pink;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -19,27 +18,35 @@ body {
 }
 
 button {
-  padding: 10px 20px;
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  margin-top: 2rem;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
   cursor: pointer;
-  background-color: aquamarine;
-  border: 1px solid black;
-  border-radius: 3px;
-  transition: background-color 0.3s;
-  margin: 10px;
 }
 
 button:hover {
-  background-color: #78e5d5;
+  background: #0056b3;
 }
 
 .form-container {
-  width: 100%;
-  max-width: 400px;
-  margin: 0 auto;
-  padding: 20px;
-  background: white;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 2rem auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
 }
 
 form {
@@ -51,8 +58,8 @@ form {
 .form-group {
   margin-bottom: 15px;
   width: 100%;
-  align-self: center;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 label {
@@ -93,10 +100,12 @@ div.error {
   margin-top: 20px;
   align-self: center;
 }
+
 .preview-container {
   font-family: Arial, sans-serif;
   color: #000000;
 }
+
 .preview-container {
   padding: 20px;
   background: #fff;
@@ -106,20 +115,41 @@ div.error {
 }
 
 .resume-section {
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background: #f9f9f9;
 }
 
 .resume-section h3 {
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 5px;
+  margin-top: 0;
+  color: #007bff;
 }
 
 .resume-section p {
-  margin: 5px 0;
+  margin: 0.5rem 0;
 }
 
 .profile-photo img {
   max-width: 150px;
   border-radius: 50%;
   margin: 10px 0;
+}
+
+.preview-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  border-radius: 50%;
+  margin-top: 1rem;
+}
+
+@media (min-width: 600px) {
+  .form-container {
+    padding: 3rem;
+  }
 }

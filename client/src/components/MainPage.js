@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 const MainPage = () => {
   return (
+    
     <div className="App">
       <h2>Welcome!</h2>
       <h3>Resume Builder</h3>
